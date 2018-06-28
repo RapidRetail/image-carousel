@@ -1,0 +1,64 @@
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67059,"time":"2018-06-27T02:41:41.657Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67059,"time":"2018-06-27T02:41:41.773Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67060,"time":"2018-06-27T02:41:41.753Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67060,"time":"2018-06-27T02:41:41.843Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67142,"time":"2018-06-27T02:41:42.180Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67142,"time":"2018-06-27T02:41:42.259Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67143,"time":"2018-06-27T02:41:42.241Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67143,"time":"2018-06-27T02:41:42.321Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67176,"time":"2018-06-27T02:41:42.601Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67176,"time":"2018-06-27T02:41:42.681Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67177,"time":"2018-06-27T02:41:42.653Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67177,"time":"2018-06-27T02:41:42.731Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67210,"time":"2018-06-27T02:41:43.008Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67210,"time":"2018-06-27T02:41:43.088Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67211,"time":"2018-06-27T02:41:43.064Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67211,"time":"2018-06-27T02:41:43.142Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67245,"time":"2018-06-27T02:41:43.416Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67245,"time":"2018-06-27T02:41:43.497Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67246,"time":"2018-06-27T02:41:43.471Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67246,"time":"2018-06-27T02:41:43.548Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67279,"time":"2018-06-27T02:41:43.837Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67279,"time":"2018-06-27T02:41:43.918Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67280,"time":"2018-06-27T02:41:43.883Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67280,"time":"2018-06-27T02:41:43.964Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67313,"time":"2018-06-27T02:41:44.255Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67313,"time":"2018-06-27T02:41:44.333Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67314,"time":"2018-06-27T02:41:44.300Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67314,"time":"2018-06-27T02:41:44.378Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67347,"time":"2018-06-27T02:41:44.658Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67347,"time":"2018-06-27T02:41:44.742Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67348,"time":"2018-06-27T02:41:44.713Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67348,"time":"2018-06-27T02:41:44.793Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67381,"time":"2018-06-27T02:41:45.085Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67381,"time":"2018-06-27T02:41:45.166Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67383,"time":"2018-06-27T02:41:45.137Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67383,"time":"2018-06-27T02:41:45.215Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67417,"time":"2018-06-27T02:41:45.493Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67417,"time":"2018-06-27T02:41:45.573Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67418,"time":"2018-06-27T02:41:45.544Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67418,"time":"2018-06-27T02:41:45.624Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67451,"time":"2018-06-27T02:41:45.899Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67451,"time":"2018-06-27T02:41:45.979Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67452,"time":"2018-06-27T02:41:45.956Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67452,"time":"2018-06-27T02:41:46.033Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67485,"time":"2018-06-27T02:41:46.303Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67485,"time":"2018-06-27T02:41:46.383Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67486,"time":"2018-06-27T02:41:46.361Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67486,"time":"2018-06-27T02:41:46.439Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67519,"time":"2018-06-27T02:41:46.712Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67519,"time":"2018-06-27T02:41:46.792Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67520,"time":"2018-06-27T02:41:46.770Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67520,"time":"2018-06-27T02:41:46.849Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67553,"time":"2018-06-27T02:41:47.122Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67553,"time":"2018-06-27T02:41:47.203Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67554,"time":"2018-06-27T02:41:47.183Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67554,"time":"2018-06-27T02:41:47.262Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67587,"time":"2018-06-27T02:41:47.542Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67587,"time":"2018-06-27T02:41:47.624Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67588,"time":"2018-06-27T02:41:47.606Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67588,"time":"2018-06-27T02:41:47.685Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67621,"time":"2018-06-27T02:41:47.953Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67621,"time":"2018-06-27T02:41:48.032Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67622,"time":"2018-06-27T02:41:48.016Z","msg":"Using New Relic for Node.js. Agent version: 4.2.0; Node version: v8.9.4."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Samuels-MacBook-Pro.local","pid":67622,"time":"2018-06-27T02:41:48.094Z","msg":"Starting New Relic for Node.js connection process."}

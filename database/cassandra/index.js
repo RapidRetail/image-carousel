@@ -8,7 +8,7 @@ const client = new cassandra.Client({
 const getProduct = (productId) => {
   const getQuery = `SELECT * FROM products_images.products WHERE id = ${productId}`;
 
-  client.execute(getQuery)
+  return client.execute(getQuery)
     .then((results) => {
       const {
         gender,

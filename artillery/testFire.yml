@@ -1,0 +1,13 @@
+config:
+  target: "http://localhost:3004"
+  phases:
+    - duration: 30
+      arrivalRate: 20
+  processor: "./generateRandomProductId.js"
+scenarios:
+  - flow:
+    - loop:
+      - function: "generateRandomProductId"
+      - get:
+          url: "/product/{{id}}/images"
+    count: 10
