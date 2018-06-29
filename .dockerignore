@@ -1,0 +1,10 @@
+.eslintrc
+node_modules/
+artillery/
+.vscode
+database/couch/
+database/images/
+database/postgres/
+database/seedHelpers.js
+database/cassandra/init.js
+docker-compose.yaml

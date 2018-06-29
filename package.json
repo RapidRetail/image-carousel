@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server/server.js",
+    "build": "webpack -p",
+    "start": "node server/server.js",
     "seed-db": "node database/cassandra/init.js",
     "react-dev": "webpack -d --watch"
   },
@@ -18,6 +19,7 @@
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "express-http-proxy": "^1.2.0",
+    "newrelic": "^4.2.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "request": "^2.87.0"
@@ -33,7 +35,6 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.9.1",
     "file-loader": "^1.1.11",
-    "newrelic": "^4.2.0",
     "node-sass": "^4.9.0",
     "pm2": "^2.10.4",
     "sass-loader": "^7.0.3",

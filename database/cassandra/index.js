@@ -1,9 +1,13 @@
 const cassandra = require('cassandra-driver');
 
-const client = new cassandra.Client({
-  contactPoints: ['localhost'],
-  keyspace: 'products_images',
-});
+let client;
+
+const connect = (contactPoint) => {
+  client = new cassandra.Client({
+    contactPoints: [contactPoint],
+    keyspace: 'products_images',
+  });
+};
 
 const getProduct = (productId) => {
   const getQuery = `SELECT * FROM products_images.products WHERE id = ${productId}`;
@@ -83,6 +87,7 @@ const createProduct = (body) => {
 };
 
 module.exports = {
+  connect,
   getProduct,
   deleteProduct,
   updateProduct,
