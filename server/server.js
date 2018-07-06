@@ -1,6 +1,15 @@
 const express = require('express');
 const cors = require('cors');
-const db = process.env.DB === 'postgres' ? require('../database/postgres') : require('../database/couch');
+let db;
+
+if (process.env.DB === 'postgres') {
+  db = require('../database/postgres');
+} else if (process.env.DB === 'couch') {
+  db = require('../database/couch');
+} else if (process.env.DB === 'cassandra') {
+  db = require('../database/cassandra');
+}
+
 const bodyParser = require('body-parser');
 
 const app = express();

@@ -96,11 +96,3 @@ module.exports = {
   updateProduct,
   createProduct,
 };
-
-
-function(doc) {
-  var key, value;
-  key = doc.id;
-  value = doc
-  emit(key, value);
-}
