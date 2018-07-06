@@ -28,7 +28,6 @@ const populateProductsData = (start, end) => {
   const result = [];
   for (let i = start; i < end; i += 1) {
     result.push([
-      i,
       helpers.getRandomGender(),
       helpers.getRandomCategory(),
       helpers.getRandomType(),
@@ -55,10 +54,3 @@ while (start < 10000001) {
   start += 100000;
   end += 100000;
 }
-
-module.exports = {
-  getRandomGender,
-  getRandomCategory,
-  getRandomType,
-  getRandomImage,
-};
