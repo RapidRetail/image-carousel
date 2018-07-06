@@ -1,0 +1,11 @@
+config:
+  target: "http://ec2-18-216-167-7.us-east-2.compute.amazonaws.com"
+  phases:
+    - duration: 30
+      arrivalRate: 20
+  processor: "./generateRandomProductId.js"
+scenarios:
+  - flow:
+    - function: "generateRandomProductId"
+    - get:
+        url: "/product/{{id}}/images"

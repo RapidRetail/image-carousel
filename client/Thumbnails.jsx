@@ -1,4 +1,5 @@
 import React from 'react'
+import Sticky from 'react-stickynode'
 
 class Thumbnails extends React.Component {
   constructor(props) {
@@ -17,7 +18,9 @@ class Thumbnails extends React.Component {
     })
     return(
       <div className="thumbnails">
-        {images}
+        <Sticky enabled top={155} bottomBoundary={4655.9549560546875}>
+          {images}
+        </Sticky>
       </div>
     )
   }

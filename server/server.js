@@ -1,6 +1,10 @@
+require('newrelic');
+
 const express = require('express');
 const cors = require('cors');
 const db = require('../database/cassandra');
+
+db.connect(process.env.DBIP);
 
 const bodyParser = require('body-parser');
 
@@ -35,4 +39,6 @@ app.post('/product/images', (req, res) => {
     .catch(err => res.status(500).send(err));
 });
 
-app.listen(3004);
+app.listen(3004, () => {
+  console.log('Listening on port 3004');
+});
