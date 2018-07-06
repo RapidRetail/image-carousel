@@ -6,11 +6,6 @@ const client = new cassandra.Client({
   keyspace: 'products_images',
 });
 
-// // couldn't create keyspace from anything other than command line
-// const dropKS = 'DROP KEYSPACE IF EXISTS products_images;';
-// const createKS = `CREATE KEYSPACE products_images
-//  WITH replication = {'class': 'SimpleStrategy', 'replication_factor' : 3};`;
-
 const dropProducts = 'DROP TABLE IF EXISTS products_images.products;';
 const createQuery = `
 CREATE TABLE products_images.products (
@@ -55,7 +50,7 @@ const createQueryArray = (start, end) => {
 
 let start = 1;
 let end = 101;
-let limit = 10000000;
+const limit = 10000000;
 
 const writeToDB = (first, last) => {
   if (first === 1) {

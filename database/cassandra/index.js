@@ -5,7 +5,7 @@ const client = new cassandra.Client({
   keyspace: 'products_images',
 });
 
-const getProduct = (productId, callback) => {
+const getProduct = (productId) => {
   const getQuery = `SELECT * FROM products_images.products WHERE id = ${productId}`;
 
   client.execute(getQuery)
@@ -19,25 +19,67 @@ const getProduct = (productId, callback) => {
       const imagesArr = [];
       Object.keys(images).map(key => imagesArr.push(images[key]));
 
-      const packet = {
+      return {
         details: [gender, category, type],
         images: imagesArr,
       };
-      callback(null, packet);
+    });
+};
+
+const deleteProduct = (productId) => {
+  const deleteQuery = `DELETE FROM products_images.products WHERE id = ${productId}`;
+  return client.execute(deleteQuery);
+};
+
+const updateProduct = (productId, body) => {
+  const updateRecord = 'UPDATE products_images.products SET gender = ?, category = ?, type = ?, images = ? WHERE id = ?';
+  const {
+    gender,
+    category,
+    type,
+    images,
+  } = body;
+
+  const imagesMap = {};
+  images.forEach((url, i) => {
+    imagesMap[i] = url;
+  });
+
+  const params = [gender, category, type, imagesMap, productId];
+
+  return client.execute(updateRecord, params, { prepare: true });
+};
+
+const createProduct = (body) => {
+  const selectNextId = 'SELECT next_id FROM products_images.ids WHERE id_name = \'product_incrementer\'';
+  const insertNewRecord = 'INSERT INTO products_images.products (id, gender, category, type, images) VALUES (?, ?, ?, ?, ?)';
+  const updateNextId = 'UPDATE products_images.ids SET next_id=? WHERE id_name = \'product_incrementer\'';
+  let nextId;
+
+  const {
+    gender,
+    category,
+    type,
+    images,
+  } = body;
+
+  return client.execute(selectNextId)
+    .then((result) => {
+      nextId = result.rows[0].next_id;
+      const imagesMap = {};
+      images.forEach((url, i) => {
+        imagesMap[i] = url;
+      });
+
+      const params = [nextId, gender, category, type, imagesMap];
+
+      return client.execute(insertNewRecord, params, { prepare: true });
     })
-    .catch(err => callback(err));
-};
-
-const deleteProduct = (productId, callback) => {
-
-};
-
-const updateProduct = (body, callback) => {
-
-};
-
-const createProduct = (callback) => {
-
+    .then(() => {
+      const params = [nextId + 1];
+      return client.execute(updateNextId, params, { prepare: true });
+    })
+    .then(() => ({ id: nextId }));
 };
 
 module.exports = {

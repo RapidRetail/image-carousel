@@ -22,7 +22,7 @@ const getProduct = (productId, callback) => {
   JOIN images i
   ON pij.image_id = i.id
 
-  where p.id=$1
+  where p.id=999949
   order by pij.position_index asc;
   `;
   const params = [productId];

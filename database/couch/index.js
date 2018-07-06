@@ -26,12 +26,9 @@ const getProduct = (productId, callback) => {
 const deleteProduct = (productId, callback) => {
   productsImages.view('products', 'product', { key: Number(productId) }, (err, body) => {
     if (!err) {
-      const {
-        _id,
-        _rev,
-      } = body.rows[0].value;
+      const doc = body.rows[0].value;
 
-      productsImages.destroy(_id, _rev, (destroyError) => {
+      productsImages.destroy(doc._id, doc._rev, (destroyError) => {
         if (!destroyError) {
           callback();
         } else {
@@ -55,24 +52,13 @@ const updateProduct = (body, callback) => {
 
   productsImages.view('products', 'product', { key: id }, (err, response) => {
     if (!err) {
-      console.log(response);
-
-      const {
-        _id,
-        _rev,
-      } = response.rows[0].value;
-
-      const updatedDocument = {
-        _id,
-        _rev,
-        gender,
-        category,
-        type,
-        images,
-      };
+      const doc = response.rows[0].value;
+      const updatedDocument = doc;
+      updatedDocument.gender = gender;
+      updatedDocument.category = category;
+      updatedDocument.type = type;
+      updatedDocument.images = images;
       
-      console.log(updatedDocument);
-
       productsImages.insert(updatedDocument, (err, body) => {
         if (!err) {
           callback(null, body);
@@ -86,8 +72,24 @@ const updateProduct = (body, callback) => {
   });
 };
 
-const createProduct = (callback) => {
+const createProduct = (body, callback) => {
+  productsImages.view('products', 'maxStats', (err, response) => {
+    if (!err) {
+      const nextId = response.rows[0].value.max + 1;
+      const newDocument = body;
+      newDocument.id = nextId;
 
+      productsImages.insert(newDocument, (insertErr) => {
+        if (!insertErr) {
+          callback(null, newDocument);
+        } else {
+          callback(insertErr);
+        }
+      });
+    } else {
+      callback(err);
+    }
+  });
 };
 
 module.exports = {
