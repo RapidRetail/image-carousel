@@ -66,7 +66,7 @@ class Carousel extends React.Component {
             ))}
           </ul>
         </div>
-        <div id="thumbs"><Thumbnails imageUrls={this.props.images} /></div>
+        <Thumbnails imageUrls={this.props.images} />
         <div id="image-carousel">
           {this.props.images.map((image, index) => (
             <Image openModal={this.openModal} ind={index} key={index} imageSrc={image} />

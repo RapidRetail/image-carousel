@@ -22,6 +22,7 @@
     "newrelic": "^4.2.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-stickynode": "^2.0.1",
     "request": "^2.87.0"
   },
   "devDependencies": {
