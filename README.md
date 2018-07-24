@@ -8,5 +8,5 @@
 - Evaluated performance of 3 databases with A/B testing for optimal data storage and interaction at scale
 
 # Contributors
-Simon Stroh (Original Creator of Front End and Mock Backend)
-Sam Rowland (Inherited Front End and scaled Backend)
+- Simon Stroh (Original Creator of Front End and Mock Backend)
+- Sam Rowland (Inherited Front End and scaled Backend)
