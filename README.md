@@ -1,26 +1,11 @@
 # RapidRetail Image Carousel
 
-> Inherit legacy front end Image Carousel App and scale backend to production level throughput
+> Image microservice with production scale system architecture
 
-## Related Projects
-
-Proxy
-  - https://github.com/RapidRetail/sams-proxy
-
-Services
-  - https://github.com/RapidRetail/image-carousel
-  - https://github.com/RapidRetail/you-may-also-like
-  - https://github.com/RapidRetail/productDetails
-  - https://github.com/RapidRetail/reviews-component
-
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Contributors](#Contributors)
-
-## Usage
-
-> Where the deployed link will go when it's done
+- Deployed and horizontally scaled image microservice to handle request rates of 4000+ RPS
+- Configured a cluster of Cassandra nodes on multiple EC2 instances to distribute database load
+- Hosted and Configured NGINX load balancer on EC2 to scale server instances
+- Evaluated performance of 3 databases with A/B testing for optimal data storage and interaction at scale
 
 # Contributors
 Simon Stroh (Original Creator of Front End and Mock Backend)
